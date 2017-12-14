@@ -22,6 +22,8 @@ class RandomTest extends Component {
       </div>
     );
   }
+render()
+{ return (<div className="blah">test</div>); }
 }
 
 export default RandomTest;
