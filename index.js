@@ -15,15 +15,14 @@ class RandomTest extends Component {
       flux, config
     } = this.context;
 
-    return (
+    {return (
       <div>
         <h2>{h2}</h2>
      <HelloWorld h2='testing helloWorld'></HelloWorld>
       </div>
-    );
+    );}
   }
-render()
-{ return (<div className="blah">test</div>); }
+
 }
 
 export default RandomTest;
